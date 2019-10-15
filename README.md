@@ -60,15 +60,19 @@ We started with these two spreadsheets:
 
 ![Two Spreadsheets](https://andydlindsay-portfolio.s3.amazonaws.com/lighthouse/bookAndAuthorsTables.png)
 
-And turned them into a relational db:
+And turned them into a relational db (and inadvertently created a many-to-many relationship):
 
-![Books and Authors](https://andydlindsay-portfolio.s3.amazonaws.com/lighthouse/books+and+authors.png)
+![Books and Authors](https://andydlindsay-portfolio.s3.amazonaws.com/lighthouse/books+and+authors+m-to-m.png)
 
 ### ERD #2 Casino
+Then we modelled a casino with players, games, and tables.
 
+![Casino](https://andydlindsay-portfolio.s3.amazonaws.com/lighthouse/casino.png)
 
 ### ERD #3 Car Manufacturer
+Finally we modelled a car manufacturer and discussed various business decisions like where to store the `colour` field.
 
+![Car Manufacturer](https://andydlindsay-portfolio.s3.amazonaws.com/lighthouse/car+manufacturers.png)
 
 ### Useful Links
 * [Database Normalization](https://en.wikipedia.org/wiki/Database_normalization)
